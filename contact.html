@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | ARH TRUCKING</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>🚛 ARH TRUCKING</h2>
+                <p>Your Road Partner Since 2025</p>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="leaseOn.html">Lease-On Program</a></li>
+                <li><a href="quote.html">Get Quote</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact ARH TRUCKING</h1>
+            <p>Reach out to our team for dispatch, support, or partnership inquiries</p>
+        </div>
+    </section>
+
+    <div class="contact-grid container">
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>Our dispatch team is available 24/7 to assist you with any questions or urgent matters.</p>
+            
+            <div class="contact-detail">
+                <div class="icon">📞</div>
+                <div>
+                    <strong>Phone (24/7 Dispatch)</strong><br>
+                    (555) 999-5555
+                </div>
+            </div>
+            
+            <div class="contact-detail">
+                <div class="icon">✉️</div>
+                <div>
+                    <strong>Email</strong><br>
+                    dispatch@arhtrucking.com (Dispatch)<br>
+                    leasing@arhtrucking.com (Lease-On)<br>
+                    billing@arhtrucking.com (Payments)
+                </div>
+            </div>
+            
+            <div class="contact-detail">
+                <div class="icon">📍</div>
+                <div>
+                    <strong>Office Location</strong><br>
+                    40 joliette ST, Suite 2B<br>
+                    Manchester, NH
+                </div>
+            </div>
+            
+            <div class="contact-detail">
+                <div class="icon">🕐</div>
+                <div>
+                    <strong>Business Hours</strong><br>
+                    Monday - Friday: 8:00 AM - 8:00 PM EST<br>
+                    Saturday: 9:00 AM - 5:00 PM EST<br>
+                    Sunday: Closed (Dispatch available 24/7)
+                </div>
+            </div>
+
+            <div class="emergency-contact">
+                <h3>🚨 Emergency Breakdown?</h3>
+                <p>Call our 24/7 road assistance: <strong>(555) 999-5555</strong></p>
+            </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+            <form id="contactForm" class="contact-form">
+                <h2>Send Us a Message</h2>
+                <p>We'll respond within 24 hours</p>
+                
+                <div class="form-group">
+                    <label for="contactName">Full Name *</label>
+                    <input type="text" id="contactName" name="contactName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="contactEmail">Email Address *</label>
+                    <input type="email" id="contactEmail" name="contactEmail" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="contactPhone">Phone Number *</label>
+                    <input type="tel" id="contactPhone" name="contactPhone" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Subject *</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Select a subject</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="dispatch">Dispatch Question</option>
+                        <option value="lease">Lease-On Program</option>
+                        <option value="quote">Quote Request</option>
+                        <option value="billing">Billing/Payment</option>
+                        <option value="complaint">Complaint/Issue</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="contactMessage">Message *</label>
+                    <textarea id="contactMessage" rows="5" required placeholder="Please provide details about your inquiry..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="contactTerms" required>
+                        I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+                    </label>
+                </div>
+                
+                <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+            </form>
+            
+            <div id="contactSuccess" class="success-message" style="display: none;">
+                ✅ Message sent successfully! We will respond within 24 hours.
+            </div>
+        </div>
+    </div>
+
+    <section class="map-section">
+        <div class="container">
+            <h2>Find Our Terminal</h2>
+            <div class="map-container">
+                <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d374000.07136236783!2d-71.36947476315602!3d42.91766541558655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1777471233299!5m2!1sen!2sus" 
+                width="100%" 
+                height="400" 
+                style="border:0; border-radius: 10px;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+                    
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ARH TRUCKING LLC</h3>
+                    <p>MC: #1747375<br>DOT: #4438458<br>Licensed & Insured</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="lease-on.html">Lease-On Program</a></li>
+                        <li><a href="quote.html">Get Quote</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>📞 (603) 660-4841<br>✉️ dispatch@arhtrucking.com</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>

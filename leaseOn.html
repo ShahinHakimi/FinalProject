@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lease-On Program | Join Our Team</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>🚛 ARH TRUCKING</h2>
+                <p>Your Road Partner Since 2025</p>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="leaseOn.html" class="active">Lease-On Program</a></li>
+                <li><a href="quote.html">Get Quote</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Owner-Operator / Lease-On Program</h1>
+            <p>Use our MC, find more loads, keep more money in your pocket</p>
+        </div>
+    </section>
+
+    <section class="program-info">
+        <div class="container">
+            <div class="program-grid">
+                <div class="program-card">
+                    <h2>🔹 How It Works</h2>
+                    <p>Join our team as an owner-operator. Use our MC authority and we'll help you find consistent, high-paying loads. We handle dispatch, paperwork, and support - you focus on driving.</p>
+                    <p><strong>Our split:</strong> We take only <strong>15%</strong> per load - one of the best rates in the industry!</p>
+                </div>
+                <div class="program-card">
+                    <h2>💰 Benefits</h2>
+                    <ul class="benefits-list">
+                        <li>✅ Access to premium loads (Amazon Relay, Walmart, Costco)</li>
+                        <li>✅ Weekly payments - every Friday guaranteed</li>
+                        <li>✅ 24/7 dispatch support</li>
+                        <li>✅ Fuel card with discounts</li>
+                        <li>✅ ELD device provided</li>
+                        <li>✅ Factoring service available (same-day payment)</li>
+                        <li>✅ No forced dispatch</li>
+                    </ul>
+                </div>
+                <div class="program-card">
+                    <h2>📋 Requirements</h2>
+                    <ul class="requirements-list">
+                        <li>✅ Valid Class A or Class B CDL</li>
+                        <li>✅ Own a box truck (24ft+) or semi-truck</li>
+                        <li>✅ Current insurance (minimum $1M liability)</li>
+                        <li>✅ Clean driving record (last 3 years)</li>
+                        <li>✅ DOT medical card</li>
+                        <li>✅ 1+ year OTR experience preferred</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="application-form">
+        <div class="container">
+            <h2>Apply to Join Our Lease-On Program</h2>
+            <p>Fill out the form below and our team will contact you within 24 hours</p>
+            
+            <form id="leaseApplication" class="lease-form">
+                <div class="form-group">
+                    <label for="fullName">Full Name *</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="truckType">Truck Type *</label>
+                    <select id="truckType" name="truckType" required>
+                        <option value="">Select your truck type</option>
+                        <option value="box-truck-24ft">Box Truck - 24ft</option>
+                        <option value="box-truck-26ft">Box Truck - 26ft</option>
+                        <option value="semi-truck">Semi-Truck with Trailer</option>
+                        <option value="straight-truck">Straight Truck</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="experience">Years of Experience *</label>
+                    <select id="experience" name="experience" required>
+                        <option value="">Select experience</option>
+                        <option value="1-2">1-2 years</option>
+                        <option value="3-5">3-5 years</option>
+                        <option value="5-10">5-10 years</option>
+                        <option value="10+">10+ years</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Additional Information</label>
+                    <textarea id="message" rows="4" placeholder="Tell us about your truck, availability, etc..."></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary submit-btn">Submit Application</button>
+            </form>
+            
+            <div id="successMessage" class="success-message" style="display: none;">
+                ✅ Application submitted successfully! Our dispatch team will contact you within 24 hours.
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ARH TRUCKING</h3>
+                    <p>MC: #1747375<br>DOT: #4438458<br>Licensed & Insured</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="leaseOn.html">Lease-On Program</a></li>
+                        <li><a href="quote.html">Get Quote</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>📞 (555) 999-5555<br>✉️ dispatch@arhtrucking.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

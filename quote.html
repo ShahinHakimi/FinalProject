@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get a Quote | ARH TRUCKING</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>🚛 ARH TRUCKING</h2>
+                <p>Your Road Partner Since 2025</p>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="lease-on.html">LeaseOn Program</a></li>
+                <li><a href="quote.html" class="active">Get Quote</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Request a Delivery Quote</h1>
+            <p>Fill out the form below and we'll get back to you within 2 hours with a competitive price</p>
+        </div>
+    </section>
+
+    <div class="quote-form-container">
+        <div class="container">
+            <form id="quoteForm" class="quote-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fullName">Full Name *</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company Name</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="serviceType">Service Type *</label>
+                    <select id="serviceType" name="serviceType" required>
+                        <option value="">Select a service</option>
+                        <option value="local">Local Delivery (within 50 miles)</option>
+                        <option value="moving">Moving Services</option>
+                        <option value="business">Business Logistics</option>
+                        <option value="amazon">Amazon Relay Loads</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="pickupCity">Pickup City *</label>
+                        <input type="text" id="pickupCity" name="pickupCity" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="pickupState">Pickup State *</label>
+                        <select id="pickupState" name="pickupState" required>
+                            <option value="">Select State</option>
+                            <option value="AL">Alabama</option>
+                            <option value="AK">Alaska</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="CA">California</option>
+                            <option value="CO">Colorado</option>
+                            <option value="CT">Connecticut</option>
+                            <option value="DE">Delaware</option>
+                            <option value="FL">Florida</option>
+                            <option value="GA">Georgia</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="ID">Idaho</option>
+                            <option value="IL">Illinois</option>
+                            <option value="IN">Indiana</option>
+                            <option value="IA">Iowa</option>
+                            <option value="KS">Kansas</option>
+                            <option value="KY">Kentucky</option>
+                            <option value="LA">Louisiana</option>
+                            <option value="ME">Maine</option>
+                            <option value="MD">Maryland</option>
+                            <option value="MA">Massachusetts</option>
+                            <option value="MI">Michigan</option>
+                            <option value="MN">Minnesota</option>
+                            <option value="MS">Mississippi</option>
+                            <option value="MO">Missouri</option>
+                            <option value="MT">Montana</option>
+                            <option value="NE">Nebraska</option>
+                            <option value="NV">Nevada</option>
+                            <option value="NH">New Hampshire</option>
+                            <option value="NJ">New Jersey</option>
+                            <option value="NM">New Mexico</option>
+                            <option value="NY">New York</option>
+                            <option value="NC">North Carolina</option>
+                            <option value="ND">North Dakota</option>
+                            <option value="OH">Ohio</option>
+                            <option value="OK">Oklahoma</option>
+                            <option value="OR">Oregon</option>
+                            <option value="PA">Pennsylvania</option>
+                            <option value="RI">Rhode Island</option>
+                            <option value="SC">South Carolina</option>
+                            <option value="SD">South Dakota</option>
+                            <option value="TN">Tennessee</option>
+                            <option value="TX">Texas</option>
+                            <option value="UT">Utah</option>
+                            <option value="VT">Vermont</option>
+                            <option value="VA">Virginia</option>
+                            <option value="WA">Washington</option>
+                            <option value="WV">West Virginia</option>
+                            <option value="WI">Wisconsin</option>
+                            <option value="WY">Wyoming</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="deliveryCity">Delivery City *</label>
+                        <input type="text" id="deliveryCity" name="deliveryCity" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="deliveryState">Delivery State *</label>
+                        <select id="deliveryState" name="deliveryState" required>
+                            <option value="">Select State</option>
+                            <option value="AL">Alabama</option>
+                            <option value="AK">Alaska</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="CA">California</option>
+                            <option value="CO">Colorado</option>
+                            <option value="CT">Connecticut</option>
+                            <option value="DE">Delaware</option>
+                            <option value="FL">Florida</option>
+                            <option value="GA">Georgia</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="ID">Idaho</option>
+                            <option value="IL">Illinois</option>
+                            <option value="IN">Indiana</option>
+                            <option value="IA">Iowa</option>
+                            <option value="KS">Kansas</option>
+                            <option value="KY">Kentucky</option>
+                            <option value="LA">Louisiana</option>
+                            <option value="ME">Maine</option>
+                            <option value="MD">Maryland</option>
+                            <option value="MA">Massachusetts</option>
+                            <option value="MI">Michigan</option>
+                            <option value="MN">Minnesota</option>
+                            <option value="MS">Mississippi</option>
+                            <option value="MO">Missouri</option>
+                            <option value="MT">Montana</option>
+                            <option value="NE">Nebraska</option>
+                            <option value="NV">Nevada</option>
+                            <option value="NH">New Hampshire</option>
+                            <option value="NJ">New Jersey</option>
+                            <option value="NM">New Mexico</option>
+                            <option value="NY">New York</option>
+                            <option value="NC">North Carolina</option>
+                            <option value="ND">North Dakota</option>
+                            <option value="OH">Ohio</option>
+                            <option value="OK">Oklahoma</option>
+                            <option value="OR">Oregon</option>
+                            <option value="PA">Pennsylvania</option>
+                            <option value="RI">Rhode Island</option>
+                            <option value="SC">South Carolina</option>
+                            <option value="SD">South Dakota</option>
+                            <option value="TN">Tennessee</option>
+                            <option value="TX">Texas</option>
+                            <option value="UT">Utah</option>
+                            <option value="VT">Vermont</option>
+                            <option value="VA">Virginia</option>
+                            <option value="WA">Washington</option>
+                            <option value="WV">West Virginia</option>
+                            <option value="WI">Wisconsin</option>
+                            <option value="WY">Wyoming</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="loadDetails">Load Details *</label>
+                    <textarea id="loadDetails" name="loadDetails" rows="4" required placeholder="Please describe your shipment: What are you shipping? Dimensions? Weight? Is it palletized? Any special requirements?"></textarea>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="weight">Estimated Weight</label>
+                        <select id="weight" name="weight">
+                            <option value="less-500">Less than 500 lbs</option>
+                            <option value="500-2000">500 - 2,000 lbs</option>
+                            <option value="2000-10000">2,000 - 10,000 lbs</option>
+                            <option value="10000-20000">10,000 - 20,000 lbs</option>
+                            <option value="20000-plus">20,000+ lbs</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="dateNeeded">Date Needed</label>
+                        <input type="date" id="dateNeeded" name="dateNeeded">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="terms" required> 
+                        I confirm that the information provided is accurate and I agree to receive a quote via email or phone
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-primary submit-btn">Get My Free Quote →</button>
+            </form>
+
+            <div id="quoteSuccess" class="success-message" style="display: none;">
+                ✅ Quote request submitted successfully! A dispatcher will contact you within 2 hours with your personalized quote.
+            </div>
+        </div>
+    </div>
+
+    <section class="quick-estimate">
+        <div class="container">
+            <h2>Quick Estimate Guide</h2>
+            <div class="estimate-grid">
+                <div class="estimate-item">
+                    <h3>Local Delivery (Under 50 miles)</h3>
+                    <p>Starting at <strong>$150</strong></p>
+                    <small>Based on 1 hour loading/unloading</small>
+                </div>
+                <div class="estimate-item">
+                    <h3>Interstate (500 miles)</h3>
+                    <p>Starting at <strong>$1.50/mile</strong></p>
+                    <small>For standard dry van loads</small>
+                </div>
+                <div class="estimate-item">
+                    <h3>Moving Services (3 Bedroom)</h3>
+                    <p>Starting at <strong>$1,200</strong></p>
+                    <small>Includes packing and loading</small>
+                </div>
+            </div>
+            <p class="estimate-note">*Final price depends on weight, dimensions, and special requirements</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ARH TRUCKING</h3>
+                    <p>MC: #1747375<br>DOT: #4438458<br>Licensed & Insured</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="lease-on.html">LeaseOn Program</a></li>
+                        <li><a href="quote.html">Get Quote</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>📞 (555) 123-4567<br>✉️ dispatch@arhtrucking.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
